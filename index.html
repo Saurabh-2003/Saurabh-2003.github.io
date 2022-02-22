@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Random Password Generator</title>
+ 
+<link rel="icon" type="image/x-icon" href="lock.png">  
+
+</head>
+
+<body>
+ 
+<link rel="stylesheet" href="style.css">
+<div class="Main">RANDOM PASSWORD GENERATOR
+
+<div><img id="icon" src="lock.png" width="70px"></div>
+</div>
+
+
+<div class="content">
+
+<div class="b">
+ 
+<input type="text" id="text" disabled>
+
+</div>
+ 
+<div class = "bhak">
+    
+<ul><li style="color:white"><div style="color:white" class="b">
+        
+<input type="number" id="length" name="length" min="5" max="20">
+
+<label for="length">Length</label>
+    </div></li>
+
+<li style="color:white"><div style="color:white" class="b">
+  
+<input type="checkbox" id="isLow" name="isLow">
+ 
+<label for="isLow">Include Lowercase</label>
+  
+</div></li>
+ 
+<li style="color:white"><div style="color:white" class="b">
+    
+<input type="checkbox" id="isUpp" name="isUpp">
+   
+<label for="isUpp">Include Uppercase</label>
+  
+</div></li>
+  
+<li style="color:white"><div style="color:white" class="b">
+  
+<input type="checkbox" id="symbol" name="symbol">
+        <label for="symbol">Include Symbols</label>
+   
+</div></li>
+    
+<li style="color:white"><div style="color:white" class="b">
+     
+<input type="checkbox" id="number" name="number">
+   
+<label for="number">Include Numbers</label>
+    </div></li></ul>
+ 
+</div>
+
+   
+<div class="button">
+     
+<button style="color:white;background-color: rgb(0,0,0,0.18);" class="generate" id="generate">GENERATE & COPY</button>    
+</div>
+
+</div>
+
+
+<div class="info">
+ 
+<button class="link"><span>
+<a style="color:white" href="https://github.com/Saurabh-Thapliyal" target="_blank">
+<p><u><img src="github.png" style="width:82px; height:86px" title="Saurabh Thapliyal" alt="gitHUB link"><br>SAURABH THAPLIYAL</u></p></a>
+</div>
+
+</span></button>
+<!-- Javascript -->
+<script src="canvas.js"></script>
+
+
+</body>
+
+</html>
