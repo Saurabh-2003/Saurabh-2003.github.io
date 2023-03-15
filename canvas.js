@@ -80,7 +80,7 @@ function work(){
 
     body.style.background="linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.2)),url(p.jpg)";
     body.style.backgroundRepeat="no-repeat";
-    body.style.backgroundSize="150% 150%";
+    body.style.backgroundSize="200% 200%";
     icon.classList.remove("pix");
     icon.className="fix";
 
