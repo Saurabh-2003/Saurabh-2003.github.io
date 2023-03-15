@@ -4,7 +4,7 @@ body{
     margin:0;
     color: black;
     user-select: none;
-    background:blue;
+    background:rgba(0, 150, 255, 0.8);
     background-repeat: no-repeat;
     background-size: cover;
 }
